@@ -23,7 +23,7 @@ Examples:
 [Cheat Sheet for Mac](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)
 
 ### AdvancedNewFile
-**Command + option/alt + N
+**Command + option/alt + N:** Create a new file under listed directory in path
 
 ## HTML
 ```html
