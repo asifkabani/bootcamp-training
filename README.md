@@ -40,8 +40,8 @@ Root element and all other elements are children elements of this root.
 This is where we put document meta data.
 ```html
 <title>
-Title of the page, helps with SEO and for web crawlers to know the name of the page.
 ```
+Title of the page, helps with SEO and for web crawlers to know the name of the page.
 ```html
 <body>
 ```
