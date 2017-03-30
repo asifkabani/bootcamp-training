@@ -17,11 +17,13 @@ Examples:
 
 + **Command + left or right arrow keys:** Move between beginning or end of the current line
 
+### AdvancedNewFile
+**Command + option/alt + N:** Create a new file under listed directory in path
+
+---
+### Resources
 + [Cheat Sheet for Mac](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)
 
 + [Sublime Text Editor: Getting Started](https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts)
 
 + [Sublime Tutor](https://sublimetutor.com/)
-
-### AdvancedNewFile
-**Command + option/alt + N:** Create a new file under listed directory in path
