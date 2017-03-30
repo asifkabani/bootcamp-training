@@ -20,4 +20,6 @@ Title of the page, helps with SEO and for web crawlers to know the name of the p
 ```
 The tag used to describe the main elements of the web page.
 
+---
+### Resources
 + [How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
