@@ -3,9 +3,6 @@ Teaching myself the boot camp training using GitHub.
 
 + [Sublime Text Editor](sublime.md)
 
-### AdvancedNewFile
-**Command + option/alt + N:** Create a new file under listed directory in path
-
 ## HTML
 ```html
 <!DOCTYPE>
