@@ -22,3 +22,6 @@ Examples:
 + [Sublime Text Editor: Getting Started](https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts)
 
 + [Sublime Tutor](https://sublimetutor.com/)
+
+### AdvancedNewFile
+**Command + option/alt + N:** Create a new file under listed directory in path
