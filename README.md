@@ -20,7 +20,11 @@ Examples:
 
 + **Command + left or right arrow keys:** Move between beginning or end of the current line
 
-[Cheat Sheet for Mac](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)
++ [Cheat Sheet for Mac](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)
+
++ [Sublime Text Editor: Getting Started](https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts)
+
++ [Sublime Tutor](https://sublimetutor.com/)
 
 ### AdvancedNewFile
 **Command + option/alt + N:** Create a new file under listed directory in path
@@ -46,3 +50,5 @@ Title of the page, helps with SEO and for web crawlers to know the name of the p
 <body>
 ```
 The tag used to describe the main elements of the web page.
+
++ [How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
