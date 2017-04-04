@@ -16,6 +16,10 @@ This is where we put document meta data.
 ```
 Title of the page, helps with SEO and for web crawlers to know the name of the page.
 ```html
+<meta name="description" contetn=">
+```
+Description of the page, help web crawlers understand your page and contribute to search engine optimization.
+```html
 <body>
 ```
 The tag used to describe the main elements of the web page.
