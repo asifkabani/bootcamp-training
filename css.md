@@ -7,4 +7,11 @@ p {
   font-size: 10px;
 }
 ```
-+ A **pseudo-class** is used to specify a special state of the element. A **pseudo-element** is used to style specified parts of an element.
++ **Pseudo-Class** is used to specify a special state of the element.
+```css
+p::first-letter
+```
++ **Pseudo-Element** is used to style specified parts of an element.
+```css
+div.foo:hover
+```
