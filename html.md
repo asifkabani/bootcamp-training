@@ -23,7 +23,7 @@ The tag used to describe the main elements of the web page.
 ```html
 <body>
 ```
-Elements start with an opening and end with a closing tag and has content in between. Example of 'div' element below:
+Elements are individual HTML components that start with an opening and end with a closing tag and has content in between. Example of 'div' element below:
 ```html
 <div>Some content</div>
 ```
@@ -31,7 +31,7 @@ Tags are used to mark off the beginning and end of an element. Both opening and 
 ```html
 <div></div>
 ```
-Attributes are used for setting properties on the HTML element. Example below of an attribute for the 'img' tag, 'src' is the attribute:
+Attributes are modifiers for an HTML element, used for setting properties on the HTML element. Example below of an attribute for the 'img' tag, 'src' is the attribute:
 ```html
 <img src="">
 ```
