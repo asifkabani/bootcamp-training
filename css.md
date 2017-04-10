@@ -43,3 +43,10 @@ html {
   box-sizing: inherit;
   }
   ```
+  
+Best reset stylesheets to work with:
++ [Meyer Rest](http://meyerweb.com/eric/tools/css/reset/reset.css)
++ [Normalize.css](https://necolas.github.io/normalize.css/)
+
+---
+### Resources
