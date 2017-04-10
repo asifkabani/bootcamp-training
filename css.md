@@ -50,3 +50,4 @@ Best reset stylesheets to work with:
 
 ---
 ### Resources
++ [Text on Images](https://css-tricks.com/design-considerations-text-images/)
