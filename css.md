@@ -17,8 +17,8 @@ div.foo:hover
 ```
 + **Cascade** is a process browsers follow to determine which CSS values get applied for all the properties on a given element.
 
-### Box Model is the idea that every element of a web page is a rectangle area.
-```box-sizing: content-box ``` is the default value it is set at. This default determines the total space taken by an element, from width, height, padding, margin, and border. The answer to the below example is 282px width. So the true value of that element does not stay what is defined ```width: 200px```.
+### Box Model
+Box model is the idea that every element of a web page is a rectangle area, ```box-sizing: content-box ``` is the default value it is set at. This default determines the total space taken by an element, from width, height, padding, margin, and border. The answer to the below example is 282px width. So the true value of that element does not stay what is defined ```width: 200px```.
 ```css
 div.foo {
 width: 200px;
