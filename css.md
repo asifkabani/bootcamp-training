@@ -87,6 +87,14 @@ Another example to demonstrate:
 </div>
 ```
 
+**Multiple selectors** are used to target multiple selectors with the same ruleset, just put a comma between the classes.
+```css
+.foo, .bar, .bizz.bang {
+  /* make the rules */
+}
+```
+
+
 
 ---
 ### Resources
