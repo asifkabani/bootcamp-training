@@ -28,3 +28,16 @@ margin: 30px;
 }
 ```
   + To solve this issue, we set the ```box-sizing: border-box``` as a good reset in the beginning for our universal selector ```*, *:before, *:after {box-sizing: border-box;}``` which makes all the element even to the width.
+  + Best reset technique:
+```css
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+  ```
