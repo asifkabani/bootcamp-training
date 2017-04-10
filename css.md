@@ -48,6 +48,46 @@ Best reset stylesheets to work with:
 + [Meyer Rest](http://meyerweb.com/eric/tools/css/reset/reset.css)
 + [Normalize.css](https://necolas.github.io/normalize.css/)
 
+### CSS Selectors
+**Element selector** consists of only the element you want to target.
+```css
+p {
+  padding: 30px;
+  font-size: 16px;
+}
+```
+
+**Combination selectors** are used to target one or more classes of an element.
+```css
+.foo.bar {
+  /* make some rules */
+}
+```
+
+This example is targeting the paragraph of the two classes.
+```css
+p.foo.bar {
+  /* make some rules */
+}
+```
+
+Another example to demonstrate:
+```css
+#header.callout {}
+```
+```html
+<div id="header" class="callout"></div>
+```
+```css
+#header .callout {}
+```
+```html
+<div id="header" class="callout">
+<div class="callout"></div>
+</div>
+```
+
+
 ---
 ### Resources
 + [Text on Images](https://css-tricks.com/design-considerations-text-images/)
