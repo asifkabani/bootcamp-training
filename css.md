@@ -94,8 +94,73 @@ Another example to demonstrate:
 }
 ```
 
+**Descendant selectors** target children of the parent element whether they're immediate children, or further down the hierarchy.
+```css
+aside p {
+  /* make rules */
+}
+```
+```html
+<aside>
+  <p>The quick brown fox jumps over the lazy dog.</p>
+
+  <div class='alert'>
+    <h3>Pay attention!</h3>
+    <p>Because the quick brown fox jumps over the lazy dog.</p>
+  </div>
+</aside>
+```
+
+**Direct child selectors** target only elements that are direct children of an element.
+```css
+aside > p {
+  /* make rules */
+}
+```
+
+**Before and after psuedoelements** allow you to render content just before or after your element.
+```css
+ul li::before {
+  content: "\f121";
+  font-family: FontAwesome;
+  color: green;
+  font-size: 20px;
+  margin-right: 5px;
+}
+```
+
+**Anchor pseudoclasses** provides four pseudoclasses for anchor elements.
+```css
+a:link {
+  /* unvisited link */
+}
+
+a:visited {
+  /* visited link */
+}
+
+a:hover {
+  /* mouse over link */
+}
+
+a:active {
+  /* selected link (i.e., you've clicked
+    but not released on the link)
+ */
+}
+```
+
+**Attribute selectors** allows you to target elements by attribute value. Common use is for targeting specific kinds of form inputs ```html input[type="radio"] ```.
+
+Options for matching attribute values:
++ Exact match: ```css element[attribute=value]```
++ Match pattern anywhere in value: ```css element[attribute*=value]```
++ Match pattern at beginning of value: ```css element[attribute^=value]```
++ Match pattern at end of value: ```css element[attribute$=value]```
+
 
 
 ---
 ### Resources
 + [Text on Images](https://css-tricks.com/design-considerations-text-images/)
++ [CSS Diner](http://flukeout.github.io/)
