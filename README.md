@@ -6,4 +6,6 @@ Teaching myself the boot camp training using GitHub.
 
 + [HTML](html.md)
 
++ [CSS](css.md)
+
 + [Google Chrome Developer Tools](chrome-dev-tools.md)
