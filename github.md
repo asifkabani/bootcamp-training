@@ -2,7 +2,7 @@
 
 Create a repository by visiting github.com and clicking on creating a new repository.
 
-If you have a local folder created for this repository already use the second version it gives you:
+**If you have a local folder created for this repository already use the second version it gives you:**
 
 ```
 git remote add origin https://github.com/username/first_push.git
@@ -16,3 +16,4 @@ Here you are creating a remote called ```origin```. This is the name that is con
 ```
 git push origin master
 ```
+This command is doing a couple of things. First, it will create the master branch in the remote repository because it does not currently exist. Then it sends the most recent snapshot of the newly created master branch so the copy on GitHub matches our local copy.
