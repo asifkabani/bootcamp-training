@@ -1,5 +1,7 @@
 ## Command Line
 
++ ```clear```: clear the terminal window of all text
++ ```ctrl+L```: clear the previous terminal data
 + ```pwd ```: print working directory
 + ```mkdir```: make directory
 + ```ls```: list contents of directory
@@ -13,4 +15,3 @@
   + ```cd ~```: go back to home directory (Users/userName in Mac)
 + ```cp fileName newFileName```: copy the file and rename it in the same folder.
 + ```mv fileName /path-to-folder/```: move the file from one folder to another folder.
-  
