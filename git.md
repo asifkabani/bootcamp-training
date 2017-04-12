@@ -51,7 +51,7 @@ Changes to be committed:
 	new file:   README.md
 ```
 
-**Commit the file to the history**
+**Commit the file to the history:**
 ```
 $ git commit -m "Initial commit"
 ```
