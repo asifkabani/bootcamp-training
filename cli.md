@@ -6,4 +6,4 @@
 + ```touch filename```: create a file
 + ```rm filename```: permanently delete a file
 + ```rmdir foldername```: permanently delete a folder - cannot use if directory contains any files
-+ ```rm -rf foldername```: this will permanently delete the folder with all files in there.
++ ```rm -rf foldername```: this will permanently delete the folder with all files in there. The ```-rf``` are options, or flags, which we can pass to tell the command what to do. In this case the ```r``` tells the command ```(rm)``` to recursively remove the directory and its contents and the ```f``` forces the command to execute without a prompt and ignoring any warnings that are encountered.
