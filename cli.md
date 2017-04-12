@@ -15,3 +15,8 @@
   + ```cd ~```: go back to home directory (Users/userName in Mac)
 + ```cp fileName newFileName```: copy the file and rename it in the same folder.
 + ```mv fileName /path-to-folder/```: move the file from one folder to another folder.
+
+---
+### Resources
++ [Basic Linux Navigation and File Management](https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management)
++ [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php)
