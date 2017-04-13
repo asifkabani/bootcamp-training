@@ -72,6 +72,10 @@ nothing to commit, working directory clean
 ```
 This means all of your recent work was commited.
 
+**Fork a repo**
++ Click on fork and copy the path
++ Inside terminal type ```git clone /url/``` and it will make a local copy which is forked on your GitHub account.
+
 ### Cheatsheet
 
 **How to commit your work for the first time in a new project:**
