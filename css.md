@@ -186,6 +186,8 @@ Also know that there are other strategies for solving the underlying layout prob
 
 One is to use the ```float``` property, and another is to use ```<table>``` elements for layout. Before inline-block was implemented, these were the only two ways to solve this problem, but there are drawbacks to both. Be prepared to encounter legacy code and outdated tutorials that use floats and tables to get set-width elements to appear on the same line, but don't use these solutions in your own work. Tables are for displaying tabular data, and floats have some good use cases, but don't use them to achieve what inline-block gives you.
 
+Note that you can set an element to be inline even if, by default, it’s set to block (and vice-versa). This is a good strategy when you want to use a particular element because it is semantically correct but its default display is not what your designs call for. One common place you'll see this is in the list of links that appear in a nav bar. By default, both unordered lists and list items are block level elements, but by setting their display property to inline-block, you can get them to display side by side in the nav.
+
 
 
 
