@@ -188,7 +188,7 @@ One is to use the ```float``` property, and another is to use ```<table>``` elem
 
 Note that you can set an element to be inline even if, by default, it’s set to block (and vice-versa). This is a good strategy when you want to use a particular element because it is semantically correct but its default display is not what your designs call for. One common place you'll see this is in the list of links that appear in a nav bar. By default, both unordered lists and list items are block level elements, but by setting their display property to inline-block, you can get them to display side by side in the nav.
 
-
+Finally, a word of caution: a common beginner mistake is to start setting the display property on all your CSS classes. Don't do this. Oftentimes, the default settings will be what you need. Only explicitly set the display property if you have a specific reason to do so.
 
 
 
