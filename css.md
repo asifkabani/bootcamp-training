@@ -158,6 +158,26 @@ Options for matching attribute values:
 + Match pattern at beginning of value: ```css element[attribute^=value]```
 + Match pattern at end of value: ```css element[attribute$=value]```
 
+### CSS Layout
+
+**Horizontal centering**
+Works only on block-level elements such as div, paragraph, ordered list, heading, etc. By default, block-level elements extend to the full width of their parent container.
+```
+margin-left: auto; margin-right: auto;
+``` 
+
+When you need to horizontally center inline elements within a block element, ```text-align: center``` does the trick.
+
+**Display property**
+The *display* property determines how an element's block is rendered in the browser (recall that we learned that all HTML elements are blocks, as described by the box model).
+
++ **Inline elements** don't start on a new line and usually do not contain additional elements, but instead just contains text. Note: an example is to explicitly set a ```max-width``` for ```p``` elements appearing on a web page as a common practice, because it's hard for users to read overly wide paragraphs. [Examples of inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements)
++ **Block-level** elements get displayed on a new line (and take up the whole available line), may contain additional block-level or inline elements, and its height and width can be explicitly set. [Examples of block-level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
++ **
+
+
+
+
 
 
 ---
