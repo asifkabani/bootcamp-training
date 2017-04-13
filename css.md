@@ -171,9 +171,22 @@ When you need to horizontally center inline elements within a block element, ```
 **Display property**
 The *display* property determines how an element's block is rendered in the browser (recall that we learned that all HTML elements are blocks, as described by the box model).
 
-+ **Inline elements** don't start on a new line and usually do not contain additional elements, but instead just contains text. **Note:** an example is to explicitly set a ```max-width``` for ```p``` elements appearing on a web page as a common practice, because it's hard for users to read overly wide paragraphs. [Examples of inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements).
-+ **Block-level** elements get displayed on a new line (and take up the whole available line), may contain additional block-level or inline elements, and its height and width can be explicitly set. [Examples of block-level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements).
-+ **Inline-block level** combine characteristics of both inline and block-level elements. An inline-block element displays inline like a span or a element, but you can give it an explicit width, height, margin, and padding. This can be a good approach when you need to create elements with a set width, but you also need them to display side by side. **Note:** Setting font-size to 0 on the parent of a set of inline block elements removes white space between them.
+**Inline elements** don't start on a new line and usually do not contain additional elements, but instead just contains text.
+
+**Note:** an example is to explicitly set a ```max-width``` for ```p``` elements appearing on a web page as a common practice, because it's hard for users to read overly wide paragraphs. [Examples of inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements).
+
+**Block-level** elements get displayed on a new line (and take up the whole available line), may contain additional block-level or inline elements, and its height and width can be explicitly set. [Examples of block-level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements).
+
+**Inline-block level** combine characteristics of both inline and block-level elements. An inline-block element displays inline like a span or a element, but you can give it an explicit width, height, margin, and padding. This can be a good approach when you need to create elements with a set width, but you also need them to display side by side.
+
+**Note:** Setting font-size to 0 on the parent of a set of inline block elements removes white space between them. The browser interprets line breaks between two inline-elements as a space.
+
+Also know that there are other strategies for solving the underlying layout problem (How do I get set width elements to appear together on the same line?).
+
+One is to use the ```float``` property, and another is to use ```<table>``` elements for layout. Before inline-block was implemented, these were the only two ways to solve this problem, but there are drawbacks to both. Be prepared to encounter legacy code and outdated tutorials that use floats and tables to get set-width elements to appear on the same line, but don't use these solutions in your own work. Tables are for displaying tabular data, and floats have some good use cases, but don't use them to achieve what inline-block gives you.
+
+
+
 
 
 
