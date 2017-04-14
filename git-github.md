@@ -40,7 +40,8 @@ $ git add README.md
 ```
 If you have more then one file you want to add:
 ```
-$ git add README.md 
+$ git add README.md
+```
 
 After doing this and then running ```git status``` you should see:
 ```
