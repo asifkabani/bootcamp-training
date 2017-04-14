@@ -1,4 +1,4 @@
-## CSS
+# CSS
 + **Cascading Style Sheets** is used as a presentation layer (as opposed to HTML which is a structure and content layer); used to control style and appearance.
 + **Ruleset** is how a particular element should look. Below example shows the ruleset for the paragraph element. **Selector** is an element(s) that will be targeted by the declarations. In the same case, 'p' is the selector. **Declaration block** is a set of declarations, the items in between braces {} are declarations, contained within the declaration block. **Declarations** consist of a property and a value, example above (property: color, value: red).
 ```css
@@ -17,7 +17,7 @@ div.foo:hover
 ```
 + **Cascade** is a process browsers follow to determine which CSS values get applied for all the properties on a given element.
 
-### Box Model
+## Box Model
 Box model is the idea that every element of a web page is a rectangle area, ```box-sizing: content-box ``` is the default value it is set at. This default determines the total space taken by an element, from width, height, padding, margin, and border. The answer to the below example is 282px width. So the true value of that element does not stay what is defined ```width: 200px```.
 ```css
 div.foo {
@@ -48,7 +48,7 @@ Best reset stylesheets to work with:
 + [Meyer Rest](http://meyerweb.com/eric/tools/css/reset/reset.css)
 + [Normalize.css](https://necolas.github.io/normalize.css/)
 
-### CSS Selectors
+## CSS Selectors
 **Element selector** consists of only the element you want to target.
 ```css
 p {
@@ -158,9 +158,9 @@ Options for matching attribute values:
 + Match pattern at beginning of value: ```css element[attribute^=value]```
 + Match pattern at end of value: ```css element[attribute$=value]```
 
-### CSS Layout
+## CSS Layout
 
-**Horizontal centering**
+### Horizontal centering
 
 Works only on block-level elements such as div, paragraph, ordered list, heading, etc. By default, block-level elements extend to the full width of their parent container.
 ```
@@ -169,7 +169,7 @@ margin-left: auto; margin-right: auto;
 
 When you need to horizontally center inline elements within a block element, ```text-align: center``` does the trick.
 
-**Display property**
+### Display property
 
 The ```display``` property determines how an element's block is rendered in the browser (recall that we learned that all HTML elements are blocks, as described by the box model).
 
@@ -190,8 +190,27 @@ One is to use the ```float``` property, and another is to use ```<table>``` elem
 
 **Finally, a word of caution:** a common beginner mistake is to start setting the display property on all your CSS classes. Don't do this. Oftentimes, the default settings will be what you need. Only explicitly set the display property if you have a specific reason to do so.
 
+### Position property
 
+The ```position``` property is all about the flow of elements in an HTML document.
 
+**Static**
+
+Any HTML element with the ```position: static``` (which is also to say, any element that you don't explicitly set position to a different value on) will have what is called normal flow. Normal flow refers to the default way browsers render content. Under normal flow, block level elements get rendered in the same order that they appear in the HTML markup, one on top of another, starting from the top left corner of the document, and inline elements stretch as wide as their inside content (usually text).
+
+**Fixed**
+
+When an element's position is set to fixed, it will stay in place even when the user scrolls. Fixed elements are taken out of the normal flow and other elements will position themselves as if the fixed element does not exist. For navbars or footers that you want to remain stuck to the top or bottom of the screen, this is often the best approach.
+
+***Offsets*** are given by CSS for us to use: left, right, top, bottom. These properties can be used on elements whose position is set to fixed, relative, and absolute, but not static.
+
+**Relative**
+
+When an element's position property is set to relative, it is still in the normal flow (in other words, relatively positioned elements are rendered in the order they appear in HTML), but unlike with static elements, we can use offset properties (left, right, top, bottom) with relative elements. Note that any offsets on a relative element are in relation to where they would be in the normal flow, not the viewport. 
+
+**Absolute**
+
+The final position value to cover is absolute. Like fixed elements, absolute elements are outside the normal flow and can be offset, but unlike fixed elements, they are offset in relation to the first parent container with a non-static position. A common use case for absolute positioning is when you have a nav bar where you want to align a logo to the left, and a set of links to the right.
 
 
 
