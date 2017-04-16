@@ -212,7 +212,9 @@ When an element's position property is set to relative, it is still in the norma
 
 The final position value to cover is absolute. Like fixed elements, absolute elements are outside the normal flow and can be offset, but unlike fixed elements, they are offset in relation to the first parent container with a non-static position. A common use case for absolute positioning is when you have a nav bar where you want to align a logo to the left, and a set of links to the right.
 
+### Float property
 
+The primary use case for floats is getting text to wrap around an image (or some other container).
 
 
 ---
