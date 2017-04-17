@@ -221,3 +221,7 @@ The primary use case for floats is getting text to wrap around an image (or some
 ### Resources
 + [Text on Images](https://css-tricks.com/design-considerations-text-images/)
 + [CSS Diner](http://flukeout.github.io/)
++ [Learn CSS Layout](http://learnlayout.com/)
++ [Opening the Box Model](http://learn.shayhowe.com/html-css/opening-the-box-model/)
++ [Positioning Content](http://learn.shayhowe.com/html-css/positioning-content/)
++ [Centering in CSS](https://css-tricks.com/centering-css-complete-guide/)
