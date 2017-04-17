@@ -47,19 +47,45 @@ Forms are containers that hold a set of inputs. The ```<form>``` element wraps a
 
 **Inputs** are individual components that a user interacts with - typically corresponding to a single data point. HTML provides numerous input types (text, email, number, password, etc.), and input types differ in how they are rendered. Inputs also vary in how they are validated. See [link for form input types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_<input>_types).
 
-**Fieldsets and Legend**
+**Fieldsets and legend**
 
 The ```fieldset``` element is used to group together related inputs and labels. An example is to use a fieldset to group together the contact info related inputs and their labels in a form. The main reason to use fieldsets is that they help web crawlers and screen readers understand how inputs are grouped together (even if this is not revealed visually to sighted end users).
 
 The legend element is like a title for the fieldset.
 
-**Inputs and Labels**
+**Inputs and labels**
 
 Standard inputs such as first and last name inputs are standard ```type=text``` inputs, with no special validation rules. **Labels** tell human users, web crawlers, and screen readers what an input is for -- using the ```for``` attribute.
 
 The ```for``` attribute goes on a label, and its value should be set to the ID of the input it's for. Note that although you're generally discouraged from using IDs as CSS selectors, using them to link inputs and labels is **best practice**.
 
 While the label element requires opening and closing tags, inputs do not.
+
+```html
+<label for="first-name">First name</label><input id="first-name" name="first-name" type="text">
+```
+
+**Input attributes**
+
+```placeholder``` is used to set text that initially displays before the user has input any data. Typically placeholders are used for example entries, and usually they're styled to be lighter than user input text.
+
+```required``` is used to indicate that an input must be filled out. When the user submits the form, if there are any required child inputs on the form, the browser will display a message telling the user where they need to supply data.
+
+The ```pattern``` attribute is used to supply regular expression patterns that the user's input must match with in order to be valid. In the example above, we use this to require that the phone number entry consists of only numbers, and optionally dashes.
+
+Finally, we find the ```type``` attribute. This attribute determines how the element looks and how its validation works. For instance, an input with ```type='email'``` will be valid if the user inputs text that has an ```@``` with text before and after.
+
+**Select and option elements**
+
+The ```<select>``` element is used to let users choose from a list of options. ```<select>``` tags wrap a set of one or more options, and you can pre-select an individual ```<option>``` by adding the selected attribute.
+
+It's possible to use an ```<optgroup>``` element to wrap multiple ```<option>``` elements under a given group name. This is helpful to organize a large set of options.
+
+**Buttons**
+
+```<button>``` elements to allow users to submit and reset the form. This is done by setting the ```type``` attribute.
+
+Buttons have many uses beyond forms once you start working with JavaScript, but when you're only working with HTML and CSS, their use is usually limited to simple form controls.
 
 ---
 ### Resources
