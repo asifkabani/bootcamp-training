@@ -1,4 +1,4 @@
-## HTML
+# HTML
 + HTML stands for Hypertext Markup Language, it is used to mark up content so web browsers know what kinds of content they're dealing with.
 + HTML is about structure, meaning it specifies each and every one of it's elements and it specifies the hierarchical relationship between elements.
 + Semantic HTML means when you create content, to use the correct elements for that content, such as when you are adding an address use the ```<address>``` to specify the address instead of wrapping the address in a ```<p>``` tag.
@@ -38,6 +38,28 @@ The tag used to describe the main elements of the web page.
 ```html
 <body>
 ```
+
+## Forms
+
+**Forms**
+
+Forms are containers that hold a set of inputs. The ```<form>``` element wraps all our inputs and labels. See [this link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#Attributes) for form attributes. To progressively support all users you'll want to set the ```action``` and ```method``` attributes. This will ensure user input can be submitted even if JavaScript is disabled or breaks. The ```action``` attribute is the URL of the server endpoint that submitted form data should be sent to. The ```method``` attribute is the request method that the browser should use when sending the data to the server. 
+
+**Inputs** are individual components that a user interacts with - typically corresponding to a single data point. HTML provides numerous input types (text, email, number, password, etc.), and input types differ in how they are rendered. Inputs also vary in how they are validated. See [link for form input types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_<input>_types).
+
+**Fieldsets and Legend**
+
+The ```fieldset``` element is used to group together related inputs and labels. An example is to use a fieldset to group together the contact info related inputs and their labels in a form. The main reason to use fieldsets is that they help web crawlers and screen readers understand how inputs are grouped together (even if this is not revealed visually to sighted end users).
+
+The legend element is like a title for the fieldset.
+
+**Inputs and Labels**
+
+Standard inputs such as first and last name inputs are standard ```type=text``` inputs, with no special validation rules. **Labels** tell human users, web crawlers, and screen readers what an input is for -- using the ```for``` attribute.
+
+The ```for``` attribute goes on a label, and its value should be set to the ID of the input it's for. Note that although you're generally discouraged from using IDs as CSS selectors, using them to link inputs and labels is **best practice**.
+
+While the label element requires opening and closing tags, inputs do not.
 
 ---
 ### Resources
