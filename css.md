@@ -218,6 +218,8 @@ The final position value to cover is absolute. Like fixed elements, absolute ele
 
 **Tip:** ```absolute``` is the trickiest position value. ```absolute``` behaves like fixed except relative to the nearest positioned ancestor instead of relative to the viewport. If an absolutely-positioned element has no positioned ancestors, it uses the document body, and still moves along with page scrolling.
 
+If you use a fixed header or footer, make sure there is room for it! I put a ```margin-bottom``` on the ```body```.
+
 ### Float property
 
 The primary use case for floats is getting text to wrap around an image (or some other container).
