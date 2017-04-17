@@ -204,6 +204,8 @@ Any HTML element with the ```position: static``` (which is also to say, any elem
 
 When an element's position is set to fixed, it will stay in place even when the user scrolls. Fixed elements are taken out of the normal flow and other elements will position themselves as if the fixed element does not exist. For navbars or footers that you want to remain stuck to the top or bottom of the screen, this is often the best approach.
 
+**Tip:** A fixed element does not leave a gap in the page where it would normally have been located.
+
 ***Offsets*** are given by CSS for us to use: left, right, top, bottom. These properties can be used on elements whose position is set to fixed, relative, and absolute, but not static.
 
 **Relative**
@@ -213,6 +215,8 @@ When an element's position property is set to relative, it is still in the norma
 **Absolute**
 
 The final position value to cover is absolute. Like fixed elements, absolute elements are outside the normal flow and can be offset, but unlike fixed elements, they are offset in relation to the first parent container with a non-static position. A common use case for absolute positioning is when you have a nav bar where you want to align a logo to the left, and a set of links to the right.
+
+**Tip:** ```absolute``` is the trickiest position value. ```absolute``` behaves like fixed except relative to the nearest positioned ancestor instead of relative to the viewport.
 
 ### Float property
 
