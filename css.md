@@ -224,6 +224,7 @@ If you use a fixed header or footer, make sure there is room for it! I put a ```
 
 The primary use case for floats is getting text to wrap around an image (or some other container).
 
+**Important**: see [clear-fix hack](http://learnlayout.com/clearfix.html) for issues which may come up using float.
 
 ---
 ### Resources
