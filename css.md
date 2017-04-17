@@ -169,6 +169,8 @@ margin-left: auto; margin-right: auto;
 
 When you need to horizontally center inline elements within a block element, ```text-align: center``` does the trick.
 
+**Important:** block-level elements inside the parent require use of a ```width``` so that they sit inside without touching the edges.
+
 ### Display property
 
 The ```display``` property determines how an element's block is rendered in the browser (recall that we learned that all HTML elements are blocks, as described by the box model).
