@@ -212,7 +212,7 @@ console.log(combined); // => Kilroy was here 12
 The idea is that if you use an operator such as + with two values with different data types, Javascript will force one of the variables to the data type of the other.
 
 ---
-## Resources
+### Resources
 
 + [Eloquent Javascript](http://eloquentjavascript.net/00_intro.html)
 + [Javascript Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
