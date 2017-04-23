@@ -1,4 +1,4 @@
-# Strings
+# Javascript - Strings
 
 Some common scenarios to understand strings:
 
