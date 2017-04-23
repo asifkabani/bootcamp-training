@@ -143,6 +143,7 @@ var bar = "foo";
 
 Number type is used to represent integer values like whole numbers (1, 2, 100), and floating point decimal numbers (1.223).
 
+*Numbers* and *strings* are both **primitive data types**. This means they are amongst the simplest data types that JavaScript gives us.
 
 ### null
 
