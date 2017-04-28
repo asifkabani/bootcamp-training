@@ -127,7 +127,6 @@ console.log(doubledNumbers); // => [2, 4, 6, 8];
 
 // This example is using .map() to product a collection of HTML elements:
 
-```
 var steps = [ 'wash', 'rinse', 'repeat'];
 
 var stepsElements = steps.map(function(step) {
