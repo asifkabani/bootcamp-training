@@ -50,7 +50,7 @@ console.log(myArray[myArray.length - 2]);
 
 See [this list](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods) for all the built in methods.
 
-### ```.pop```
+### ```.pop()```
 
 This is used to remove the final item fron an array; the method below returns the discarded item:
 
@@ -62,7 +62,7 @@ console.log(lastItem); // => 'three'
 console.log(myArray.length); // => 2
 ```
 
-### ```shift()```
+### ```.shift()```
 
 This is used to remove and return the first element of a list:
 
@@ -89,7 +89,7 @@ console.log(copyArray); // => [1, 2]
 myArray.slice(-2); // => [3, 4]
 ```
 
-### ```sort```
+### ```.sort()```
 
 This method sorts an array in *place*, meaning it sorts the original array, it does not make a copy, sort it, then return the sorted copy. Without any agruments () it will alphabetically sort the list by default:
 
