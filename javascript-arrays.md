@@ -111,6 +111,7 @@ function sortNumbers(a, b) {
 }
 myArray.sort(sortNumbers);
 // [1, 2, 10, 20, 100, 200]
+```
 
 ### ```.map()```
 
