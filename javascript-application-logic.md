@@ -92,6 +92,11 @@ true == 1
 // True because between a boolean and a number, the number gets converted to a boolean and Boolean(1) is true.
 ```
 
+---
+### Resources
+
++ [Conditions Tutorial](http://www.learn-js.org/en/Conditions)
++ [Program Structure](http://eloquentjavascript.net/02_program_structure.html)
 
 
 
