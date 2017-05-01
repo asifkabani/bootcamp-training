@@ -18,14 +18,14 @@
 
 Variable **declaration** is telling the computer that it needs to set aside a space in memory for a new variable.
 
-``` **var** myVar;```
+``` var myVar;```
 
 **Note:** When you declare a variable, it doesn't have a value yet. By default, JavaScript gives declared variables the special value ```undefined```.
 
 Assign a value to a variable:
 
 ```
-**var** myVar;
+var myVar;
 myVar = 6;
 ```
 
