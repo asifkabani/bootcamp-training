@@ -10,7 +10,6 @@
 
 ## Variable
 
-u
 + They give us a shorthand way to refer to values created elsewhere in a program. We can declare and define a variable once, and pass that value around in our code without having to rewrite it each time.
 
 + They give us a way to manage **state** in a program. State has to do with persisting values over time in a program.
