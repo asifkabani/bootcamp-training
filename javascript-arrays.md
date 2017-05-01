@@ -99,7 +99,7 @@ myArray.sort();
 console.log(myArray); // => ['xylophone', 'yodel', 'zebra']
 ```
 
-If you want to sort an array by any criteria, you must pass in a **compare function** to ```.sort()``` that tells the criteria for sorting any two items. This must return a numeric value. If returned value is < 0, the first element comes before the second. If returned value is > 0, the second element comes first. And if it is = 0 then the two elements have teh same numeric value.
+If you want to sort an array by any criteria, you must pass in a **compare function** to ```.sort()``` that tells the criteria for sorting any two items. This must return a numeric value. If returned value is < 0, the first element comes before the second. If returned value is > 0, the second element comes first. And if it is = 0 then the two elements have the same numeric value.
 
 ```
 var myArray = [1, 2, 10, 20, 100, 200];
@@ -126,7 +126,7 @@ var myNumbers = [1, 2, 3, 4];
 var doubledNumbers = myNumbers.map(double);
 console.log(doubledNumbers); // => [2, 4, 6, 8];
 
-// This example is using .map() to product a collection of HTML elements:
+// This example is using .map() to produce a collection of HTML elements:
 
 var steps = [ 'wash', 'rinse', 'repeat'];
 
