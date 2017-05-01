@@ -66,7 +66,7 @@ var varFoo = 'some value';
 // this is okay
 ```
 
-**Character restrictions** require taht a variable name must begin with an upper or lower case letter, ```$``` or ```_```. It cannot begin with a number.
+**Character restrictions** require that a variable name must begin with an upper or lower case letter, ```$``` or ```_```. It cannot begin with a number.
 
 Numbers can be used elsewhere in the variable name:
 
