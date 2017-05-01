@@ -10,8 +10,7 @@
 
 ## Variable
 
-A **variable** is a name that is attached to a **value**.
-
+u
 + They give us a shorthand way to refer to values created elsewhere in a program. We can declare and define a variable once, and pass that value around in our code without having to rewrite it each time.
 
 + They give us a way to manage **state** in a program. State has to do with persisting values over time in a program.
@@ -131,7 +130,7 @@ A **data type** is a kind of value that variables can have, there are six data t
 
 ### String
 
-String are indicated with an opening and closing quotes **BUT** both must be the same kind, cannot open with single and close with double. They are used to represent **text**. Any character from the Unicode](https://en.wikipedia.org/wiki/Unicode) scheme can be shown in a string.
+String are indicated with an opening and closing quotes **BUT** both must be the same kind, cannot open with single and close with double. They are used to represent **text**. Any character from the [Unicode](https://en.wikipedia.org/wiki/Unicode) scheme can be shown in a string.
 
 ```
 var foo = 'bar';
