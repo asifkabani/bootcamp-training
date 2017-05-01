@@ -51,7 +51,7 @@ var myVar = condition1 ? 'something other than default' : null;
 ## ```try``` / ```catch``` / ```finally```
 
 Javascript gives us three commands for dealing with conditional logic in the case of **errors**.
-They allow us to specify a block of behvior that is to be tried (```try```). If that does not work, the behavior in the ```catch``` block runs. And either in success or failure case, ```finally``` block will run. You do not have to use ```finally``` with ```try``` and ```catch```.
+They allow us to specify a block of behavior that is to be tried (```try```). If that does not work, the behavior in the ```catch``` block runs. And either in success or failure case, ```finally``` block will run. You do not have to use ```finally``` with ```try``` and ```catch```.
 
 The ```throw``` keyword can also be used to intentionally raise an error:
 
