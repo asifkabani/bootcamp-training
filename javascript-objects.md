@@ -1,4 +1,4 @@
-#Javascript - Objects
+# Javascript - Objects
 
 **Objects** are a *complex data type* that allow you to bring together common properties and behaviors into a single entity.
 
