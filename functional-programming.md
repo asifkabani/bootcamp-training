@@ -4,7 +4,6 @@
 + Less bugs - easier to reason about
 + Less time - able to reuse more of your code
 + Functions are values - functions can be assigned to variables OR passed into other functions...higher order functions
-+ 
 
 ```
 function triple(x) {
@@ -28,7 +27,8 @@ Composition - take one function into another function, allows us compose alot of
 
 
 ```
-Most basic and useful function is filter, a filter on the array that accepts another function as an argument.
+Most basic and useful function is filter, a filter on the array that accepts another function
+as an argument.
 
 var animals = [
 { name: 'Fluffykins', species: 'rabbit' },
