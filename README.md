@@ -2,7 +2,7 @@
 
 Teaching myself the boot camp training using GitHub.
 
-**Tools:*
+**Tools:**
 
 + [Sublime Text Editor](sublime.md)
 
