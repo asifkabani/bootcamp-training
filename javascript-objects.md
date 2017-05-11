@@ -177,3 +177,14 @@ users.forEach(function(user) {
   );
 });
 ```
+---
+### Resources
+
++ [JavaScript objects basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
++ [Guide to working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
++ [Object-oriented JavaScript for beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
++ **Eloquent Javascript**
+  + [Data Structures: Objects and Arrays](http://eloquentjavascript.net/04_data.html)
+  + [Higher Order Functions](http://eloquentjavascript.net/05_higher_order.html)
+  + [The Secret Life of Objects](http://eloquentjavascript.net/06_object.html)
+
